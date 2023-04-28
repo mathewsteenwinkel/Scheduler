@@ -17,8 +17,6 @@ export default function Application(props) {
   const dailyAppointments = getAppointmentsForDay(state, state.day);
 
 
-
-
   const appointments = getAppointmentsForDay(state, state.day).map(
     appointment => {
       return (
