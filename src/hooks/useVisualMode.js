@@ -12,7 +12,6 @@ export default function useVisualMode(initial) {
   };
 
   function back (){
-    console.log(history)
     if (history.length <= 1){
       return { mode: history[history.length -1], transition, back };
     } else {
