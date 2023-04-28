@@ -30,6 +30,6 @@ with a mentor. Teck stack includes React, webpack, babel, Axios, Storybook and j
 
 ## Images
 
-https://user-images.githubusercontent.com/100092964/235047450-97e74790-7291-49c1-a3ca-e0b3a2f89dd5.png
-https://user-images.githubusercontent.com/100092964/235047457-8fa02a2b-0d32-4564-8506-700be825fd53.png
-https://user-images.githubusercontent.com/100092964/235047461-159dda35-a697-4de3-b0fd-53aa2254ab6b.png
+!["appointment screenshot"] (https://user-images.githubusercontent.com/100092964/235047450-97e74790-7291-49c1-a3ca-e0b3a2f89dd5.png)
+!["make an appointment screenshot"] (https://user-images.githubusercontent.com/100092964/235047457-8fa02a2b-0d32-4564-8506-700be825fd53.png)
+!["cancel appointment screenshot"] (https://user-images.githubusercontent.com/100092964/235047461-159dda35-a697-4de3-b0fd-53aa2254ab6b.png)
