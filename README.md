@@ -27,6 +27,16 @@ npm run storybook
 Scheduelr is a Single page Application in which you can book, edit, and delete an appointment
 with a mentor. Teck stack includes React, webpack, babel, Axios, Storybook and jest.
 
+## list of Dependencies
+```
+axios
+classnames
+normalize.css
+react
+react-dom
+react-scripts
+```
+
 
 ## Images
 
