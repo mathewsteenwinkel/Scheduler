@@ -4,6 +4,8 @@ import "./InterviewerList.scss";
 
 import PropTypes from 'prop-types'; 
 
+
+// function to show multiple interviewers to choose from for an interview.
 function InterviewerList(props) {
   return (
     <section className="interviewers">

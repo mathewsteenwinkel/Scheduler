@@ -25,6 +25,7 @@ export default function Appointment(props) {
     props.interview ? SHOW : EMPTY
   );
 
+  //funciton to save the interview or error out.
   function save(name, interviewer) {
     const interview = {
       student: name,
@@ -40,6 +41,12 @@ export default function Appointment(props) {
       
   }
 
+  //function to transitition back to show interview.
+  function transitionShow(){
+    transition(SHOW)
+  }
+
+  //function to delete the interview or error out.
   function deleted (){
     transition(CANCEL)
     transition(DELETE, true)
@@ -109,7 +116,8 @@ export default function Appointment(props) {
       {mode === ERROR_DELETE &&
         <Error
           message={'Was not able to delete.'}
-          onClose={back}
+          onClose={transitionShow}
+          
         />}
     </article>
 
